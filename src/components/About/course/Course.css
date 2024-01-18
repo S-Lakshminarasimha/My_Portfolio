@@ -1,0 +1,40 @@
+
+.course{
+    height:80px;
+    aspect-ratio: 5/1;
+    background-image: url('../course-tag.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    column-gap: 50px;
+    display: flex;
+}
+
+.course_details{
+    line-height: 1.4rem;
+    font-size: .9rem;
+}
+
+.course .year{
+    font-family: 'Limelight';
+    margin-left: 50px;
+}
+
+
+.ug{
+    top:50;
+    left:30px
+}
+
+.inter{
+    top:175px;
+    left:30px
+}
+
+.ssc{
+    top: 295px;;
+    left:30px
+}

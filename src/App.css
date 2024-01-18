@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto serif';
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+:root{
+    --bg-col: #f5f5f5;
+    --txt-col:rgba(0,0,0,0.9);
+    --shadow:rgba(217, 217, 217,0.3);
+}
+
+body{
+    background-color: var(--bg-col);
+    color: var(--txt-col);
+}
+
+a{
+    text-decoration: none;
+    color: var(--txt-col);
+}
+
+

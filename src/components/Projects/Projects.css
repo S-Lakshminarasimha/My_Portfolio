@@ -1,0 +1,84 @@
+.projects{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-block: 2em;
+}
+
+.projects-wrapper{
+    width: 70%;
+    height: 550px;
+    padding-inline: 3em;
+    display: grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    grid-auto-rows: 250px;
+    column-gap: 1.5em;
+    row-gap: 5em;
+    overflow-y: scroll;
+    margin-block: 3em;
+}
+
+.projects-wrapper::-webkit-scrollbar{
+    padding-block: 2em;
+    width: 10px;
+    height: 80%;
+    display: none;
+}
+.projects-wrapper::-webkit-scrollbar-thumb{
+    background-color: rgba(0,0,0,0.1) ;
+    border-radius: 50px;
+}
+
+.projects .title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+.projects .title h1{
+    font-family: 'Limelight';
+    font-size: 2rem;
+    margin-inline:20px;
+}
+
+.projects .title .bar{
+    width: 450px;
+    height: 1px;
+    border: 1px solid black;
+}
+
+
+.project-card-front{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--shadow);
+    padding: 20px;
+    cursor: pointer;
+}
+
+.project-card-front img{
+    height:180px ;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.project-name{
+    background-color: #fff;
+    width: 100%;
+    height: 50px;
+    display: grid;
+    place-items: center;
+    font-family: "Scope One";
+    font-weight: bolder;
+    font-size: .9rem;
+    letter-spacing: 2px;
+}
+
+.project:hover .project-card{
+    transform: rotate (270deg);
+}
+
+

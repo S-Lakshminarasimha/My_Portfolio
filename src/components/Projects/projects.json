@@ -1,0 +1,13 @@
+{
+
+    "projects":[
+
+        {"id":"1" , "name":"TIC-TAC-TOE","imageLink":"https://lakshminarasimha.netlify.app/Images/tictactoe.jpg", "url":"https://tictactoe-1133.netlify.app/"},
+        {"id":"2" , "name":"WEATHER-APP","imageLink":"https://lakshminarasimha.netlify.app/Images/weather.jpg","url":"https://weatherapp-1133.netlify.app/"},
+        {"id":"3" , "name":"TODO","imageLink":"https://lakshminarasimha.netlify.app/Images/tasks.jpg","url":"https://todo-app-714d.onrender.com/"},
+        {"id":"4" , "name":"CHIT-CHAT","imageLink":"https://lakshminarasimha.netlify.app/Images/messenger.jpg","url":""},
+        {"id":"5" , "name":"FOOD HOUSE","imageLink":"https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Zm9vZHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60","url":""},
+        {"id":"6" , "name":"E-COMMERCE","imageLink":"https://img.freepik.com/free-vector/flat-design-online-shopping-landing-page_52683-37323.jpg?w=996&t=st=1691691223~exp=1691691823~hmac=59c75426f9e8e1346bf93e43a34a6624f6dc4b113506ac649f0210d514c1fc13","url":""}
+    ]
+
+}

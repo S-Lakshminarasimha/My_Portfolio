@@ -1,0 +1,52 @@
+.nb{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 3em;
+    font-weight:500;
+}
+
+
+
+.menuitem{
+    font-size: .9rem;
+    display: inline-block;
+    margin-right: 2em;
+    cursor: pointer;
+    position: relative;
+    padding-bottom: 3px ;
+    font-family: 'Scope One';
+
+}
+
+ 
+
+.menuitem::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 3px;
+    background-color: black;
+    opacity: 0;
+    transition: width 1s, opacity 1s;
+}
+
+.menuitem:hover::before{
+    width: 100%;
+    opacity: 1;
+}
+
+.logo{
+    height: 40px;
+    aspect-ratio: 6/1;
+    background-image: url('./logo.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: .8;
+}
+
